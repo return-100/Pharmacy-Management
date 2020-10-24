@@ -1,0 +1,224 @@
+.root
+{
+    -fx-background-image: url("../images/Back.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover ;
+    -fx-font-size: 20px;
+    /*-fx-font-weight: bold;
+    -fx-font-family:'Comic Sans MS';*/
+}
+
+.root .popup
+{
+    -fx-background-color: transparent;
+}
+
+.button
+{
+    -fx-background-color: white;
+    -fx-border-color: #008CBA;
+    -fx-text-fill: #008CBA;
+    -fx-border-radius: 2px;
+    -fx-border-style: solid;
+}
+.button:hover
+{
+    -fx-background-color: #008CBA;
+    -fx-text-fill: white;
+}
+
+                    /*Table View*/
+.table-view
+{
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+}
+
+.table-view .filler
+{
+    -fx-background-color: #add8e6;
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: black;
+}
+
+.table-view .column-header-background
+{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.table-view .column-header
+{
+    -fx-background-color: #add8e6;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: black;
+}
+
+.table-view .table-cell
+{
+    -fx-alignment: CENTER;
+    -fx-border-width: 0 0 0 2;
+    -fx-border-color: #add8e6;
+}
+
+.table-row-cell
+{
+    -fx-text-fill: black;
+    -fx-cell-size: 45px;
+    -fx-background-color:  transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd
+{
+    -fx-background-color:rgba(255, 255, 255, 0.5);
+}
+
+.table-row-cell:selected
+{
+    -fx-background-color: #008CBA;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+                    /*Scroll Bar*/
+.scroll-bar
+{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 5;
+}
+
+.scroll-bar:vertical .decrement-button
+{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .decrement-button .decrement-arrow
+{
+    -fx-background-color: #add8e6;
+}
+
+.scroll-bar:vertical .decrement-button .decrement-arrow:hover
+{
+    -fx-background-color: #008CBA;
+}
+
+.scroll-bar:vertical .increment-button
+{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .increment-button .increment-arrow
+{
+    -fx-background-color: #add8e6;
+}
+
+.scroll-bar:vertical .increment-button .increment-arrow:hover
+{
+    -fx-background-color: #008CBA;
+}
+
+.scroll-bar .thumb
+{
+    -fx-background-color: #add8e6;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0.5em;
+}
+
+.scroll-bar .thumb:hover
+{
+    -fx-background-color: #008CBA;
+}
+
+.scroll-bar .thumb:pressed
+{
+    -fx-background-color: #008CBA;
+}
+
+.scroll-bar .track
+{
+    -fx-background-color: transparent;
+    -fx-background-insets:  0;
+    -fx-border-color: #add8e6;
+    -fx-border-radius: 0.5em;
+}
+
+                    /*Tab Pane*/
+.tab-pane .tab-header-area .tab-header-background
+{
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color: #add8e6;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab-pane .tab
+{
+    -fx-background-color: rgba(255,255,255,0.5);
+    -fx-background-radius: 8 8 0 0;
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color: #add8e6;
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #008CBA;
+}
+
+.tab .tab-label
+{
+    -fx-alignment: CENTER;
+    -fx-text-fill: #008CBA;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label
+{
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+}
+					/*Split Menu Button*/
+.split-menu-button:openvertically
+{
+    -fx-background-color: transparent;
+}
+
+.split-menu-button:openvertically .label
+{
+    -fx-background-color: transparent;
+    -fx-text-fill : #008CBA;
+}
+
+.split-menu-button:openvertically .arrow-button
+{
+    -fx-background-color: transparent;
+}
+
+.split-menu-button:openvertically .arrow-button .arrow
+{
+    -fx-background-color: #008CBA;
+}
+
+.menu-item
+{
+    -fx-background-color: transparent;
+}
+
+.menu-item:hover
+{
+    -fx-background-color: #add8e6;
+}
+
+.context-menu
+{
+    -fx-background-color: #e6e6fa;
+}
+
